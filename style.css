@@ -1,0 +1,316 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #d4d4d6;
+      }
+.center {
+	width: 1200px; /* Ширина элемента в пикселах */
+    height: 70px;
+	padding: 5px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    background: none; /* Цвет фона */
+}
+header {
+	    font-family: 'Open Sans', sans-serif;
+        background: white;
+		box-shadow: 0px 0px 1px rgba(0,0,0,0.6); /* Тень */
+		height: 70px;}
+		
+.logo-box {
+  float: left;
+  margin-left: 0px;
+}
+
+.logo {
+  float: left;
+  margin: 0;
+  height: 2px;
+  text-align: center;
+}
+.logo img {width: 140px;} /* Размеры логотипа */
+
+nav { 
+ 
+  font-size: 16px;
+  max-width: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+
+ul {
+  margin: 10px;
+  margin-right: 1px;
+  padding-left: 1px;
+  list-style: none;
+  float: center;
+  height: 20px;
+  text-align:center;
+  
+  
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  
+  
+}
+
+li a { 
+  color: #383838;
+  padding: 5px;
+  white-space: pre-line; 
+ 
+}
+
+li { 
+
+  position: relative;
+  top: 5px;
+  left: 20px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left:5px;
+  padding-right: 5px;
+  }
+
+
+
+li a:hover {
+	        color: #0f70b7; 
+            transition-duration: 0.1s;
+			}
+.top {
+	   margin-top: 10px;
+	   padding: 10px;
+	   height: 200px;  
+       width: auto;
+	   background: white; /* цвет фона */
+	   box-shadow: 0.1em 0.1em 1px rgba(122,122,122,0.5); /* тень */
+	   }
+	   
+			   
+.img1 {      
+             display: block;
+             float:left;
+			 height: auto;
+			 width: 80px;
+			 text-align: left;
+			 mergin-left: 5px;			 
+			 line-height:1,1; /* межстрочный интервал */
+			 padding-left: 0px;
+			 padding-right: 20px;
+			 vertical-align: left;
+			 
+			 
+			 
+}
+.img1:hover {fill: pink;}
+
+.fig1 {
+	        position: absolute;
+	        font-size: 14px;
+	        padding: 0px;
+			width: 120px;
+			height: auto;
+			text-align: left;
+			padding-top: 3px;
+			}
+			
+.top1 {     
+        	font-size: 18px;
+			color: #0f70b7;
+			
+			}
+.top2 {
+	    height: 100px;
+	  }
+.block { width: auto; 
+         background: #ff213b;
+         height: auto; 
+		 margin-top: 10px;
+		 box-shadow: 0.1em 0.1em 1px rgba(122,122,122,0.5); /* тень */}
+
+.button
+            {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  weight: auto;
+  height: 15px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding: 10px;  
+  margin: 2em auto;
+  margin-left: 2px;
+  text-align: center;
+  background: #ff213b;
+  color: white;
+  overflow: hidden;
+  transition: all 0.5s;
+  
+             }
+
+
+.button:hover, .button:active 
+{
+  text-decoration: none;
+  color: #0f70b7; /* цвет при наведении */
+  border-color: #0f70b7;
+  background: white;
+
+}
+
+.button span 
+{
+  display: inline-block;
+  position: relative;
+  padding-right: 0;
+  
+  transition: padding-right 0.5s;
+}
+
+.button span:after 
+{
+  content: ' ';  
+  position: absolute;
+  top: 0;
+  right: -18px;
+  opacity: 0;
+  width: 10px;
+  height: 10px;
+  margin-top: -10px;
+
+  background: rgba(0, 0, 0, 0);
+  border: 3px solid #FFF;
+  border-top: none;
+  border-right: none;
+
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  transform: rotate(-45deg);
+}
+
+.button:hover span, .button:active span 
+{
+  padding-right: 30px;
+  
+}
+
+.button:hover span:after, .button:active span:after 
+{
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  opacity: 1;
+  border-color: #0f70b7;
+  right: 0;
+  top: 50%;
+}
+.clients {background: white;
+          height: 250px;
+		  padding: 10px;
+		  margin-top: 10px;}
+h1 {text-align: center;
+    }
+
+.logo-cliets { 
+	    height: 50px;
+		white-space:pre-wrap;
+		margin-bottom:15px;
+		margin-right: 40px;
+		}
+
+.about {background: white;
+          height: auto;
+		  padding: 10px;
+		  margin-top: 10px; 
+		  background: white;}		
+.about_company { float: left;
+                margin-right: 10px;
+                text-align: justify;
+				}
+.p {margin-left: 55px; text-align: justify;}
+
+footer { background: #0f70b7; 
+         height: 80px;
+		}
+.text_footer {color: white;
+         font-size: 12px;
+		 text-align: right;
+		 color: white;
+		 padding-top: 5px;
+		 padding-right: 5px;
+		 width: 400px;
+		 float: right;
+		 }
+
+
+/* Бетонные полы */
+
+.top3 {height: auto;
+       background: white;
+	   margin-top: 10px;
+	   padding-top: 1px;
+}
+.top3 h1 {color: #0f70b7;}
+.main-text {text-align: center; /* Выравнивание по центру страницы */
+            margin-bottom: 0px; /* Отступ внизу */
+			font-style: italic; /* Курсивное начертание */
+           }
+.about_beton {background: white;
+              height: auto;
+              padding-top: 20px; 
+			  }
+			  
+.about_txt { 
+          float: left;
+          width: 550px;
+          margin-top: 50px;
+		  margin-left: 15px;
+		  margin-bottom: 10px;
+          text-align: justify;
+          margin-right: 70px;
+}
+
+.img_beton { 
+            width: 550px
+		   }
+		   
+.block2 {background: white;
+         padding: 2px;
+		 margin-top: 10px;
+		 background: #4286f4;
+		 color: white;
+		 }
+h4 {
+	 margin-left: 10px;
+	 width: 380px; 
+	}
+
+.sheme {background: white;
+        padding: 10px;
+		height: 400px;;
+		}
+		
+.sheme img { width: 400px;
+			 float: right;
+			 margin-right: 300px;
+			 padding: 0px;
+
+			}
+
+dd {
+	 font-size: 14px;
+     width: 450px;  
+     margin: 0px;
+     float: left;
+	 margin-left: 10px;
+	 text-align: justify;
+}
+dd:hover {background: #4286f4;
+      color: white;}
+
+
